@@ -1,0 +1,8 @@
+.traffic-light{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    background-color: #020202;
+    padding: 24px;
+    border-radius: 10px;
+}

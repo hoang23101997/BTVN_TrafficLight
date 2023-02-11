@@ -1,0 +1,27 @@
+.light-container {
+    width: 120px;
+    height: 120px;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.light {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #4c4c4c;
+}
+.light.red-light.on {
+    background: red;
+    box-shadow: 0px 0px 20px red;
+}
+.light.yellow-light.on {
+    background: yellow;
+    box-shadow: 0px 0px 20px yellow;
+}
+.light.green-light.on {
+    background: rgb(14, 217, 14);
+    box-shadow: 0px 0px 20px rgb(14, 217, 14);
+}
